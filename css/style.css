@@ -24,11 +24,9 @@ h1{
 textarea{
     background: #F3F5FC;
     border: none;
-    position: absolute;
-    left: 240px;
-    width: 50%;
-    height: 45%;
-    top: 168px;
+    width: 940px;
+    margin-left: auto;
+    margin-right: auto;
     font-size: 32px;
     font-family: Inter;
     resize: none;
@@ -42,14 +40,14 @@ textarea:focus{
     color: #0A3871;    
 }
 
-.info-texto {
+/* .info-texto {
     display: inline-block;
     position: absolute;
     top: 75%;
     left: 200px;
     padding:15px;
     width: 90%;
-}
+} */
 
 .info-texto p{
     display: inline-block;
