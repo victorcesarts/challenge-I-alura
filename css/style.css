@@ -1,9 +1,11 @@
 body{
     background: #F3F5FC;
 }
+
 header{
     padding: 20px 0;
 }
+
 .caixa-header{
     position: relative;
     width: 940px;
@@ -25,6 +27,7 @@ textarea{
     background: #F3F5FC;
     border: none;
     width: 940px;
+    height: 300px;
     margin-left: auto;
     margin-right: auto;
     font-size: 32px;
@@ -35,19 +38,16 @@ textarea{
 textarea:focus{
     outline: none;
 }
+ #area-texto{
+    width: auto;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+} 
 
 ::placeholder{
     color: #0A3871;    
 }
-
-/* .info-texto {
-    display: inline-block;
-    position: absolute;
-    top: 75%;
-    left: 200px;
-    padding:15px;
-    width: 90%;
-} */
 
 .info-texto p{
     display: inline-block;
@@ -58,7 +58,7 @@ textarea:focus{
     opacity: 0.8;
     color:#495057;
     margin: 0 0 1em 0;
-}
+} 
 
 .info-texto {
     width: 940px;
