@@ -8,7 +8,6 @@ header{
 
 .caixa-header{
     position: relative;
-    width: 940px;
 }
 
 h1{
@@ -19,14 +18,15 @@ h1{
 }
 
 .conteudo{
+    width: 60%;
     text-align: center;
-    
+    float: left;
+    height: 944px
 }
 
 textarea{
     background: #F3F5FC;
     border: none;
-    width: 940px;
     height: 300px;
     margin-left: auto;
     margin-right: auto;
@@ -38,7 +38,8 @@ textarea{
 textarea:focus{
     outline: none;
 }
- #area-texto{
+
+#area-texto{
     width: auto;
     height: auto;
     margin-left: auto;
@@ -49,26 +50,30 @@ textarea:focus{
     color: #0A3871;    
 }
 
+/* .info-texto {
+    width: 40%;
+   
+}  */
+
 .info-texto p{
     display: inline-block;
-    text-align: center;
     font-size: 12px;
     font-family: Inter;
     font-weight: 400;
     opacity: 0.8;
     color:#495057;
-    margin: 0 0 1em 0;
+    margin: 0 0 1em 0; 
 } 
 
-.info-texto {
-    width: 940px;
-    margin-left: auto;
-    margin-right: auto;
-} 
+.instrucoes{
+    display: block;
+    text-align: left;
+}
 
 .botoes{
     display: inline-block;
-    text-align: center;
+    text-align: center; 
+    
 }
 
 .botoes li{
@@ -134,3 +139,52 @@ textarea:focus{
     color: #0A3871; 
     border: 1px solid #0A3871;  
 }
+
+.resultado{
+    float: right;
+    width: 35%;
+    height: 944px;
+    left: 1000px;
+    top: 40px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+    margin-right: 10px;      
+}
+
+/* .resultado img{
+    display: block;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+} */
+
+ #titulo-resultado{
+    font-family: Inter;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28.8px;
+    text-align: center;
+    align-items: center;
+    color: #343A40;
+    flex: none;
+   
+} 
+
+.conteudo-resultado{
+    top: 50%;
+    width: 35%;
+    position: absolute;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+ 
+.conteudo-resultado p{
+    text-align: center;
+}
+/* .img-resultado{
+    display: inline-block;
+    text-align: center;
+} */
