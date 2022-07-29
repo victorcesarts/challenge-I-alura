@@ -73,6 +73,12 @@ textarea:focus{
     text-align: center;
 }
 
+.botoes li{
+    display: inline-block;
+    text-align: center;
+    margin: 0 0 0 15px;
+} 
+
 .criptografar{
     box-sizing: border-box;
     border: none;
@@ -85,56 +91,6 @@ textarea:focus{
     font-family: Inter;
     font-weight: 400;
     font-size: 18px;
-    line-height: 19px;
-    height: auto;
-    background-color: #0A3871;
-}
-
-.criptografar:hover{
-    transform: scale(1.05);
-    border: 2.5px solid #000000;
-    transition: 400ms;
-}
-
-.criptografar:active{
-    background-color: #FFFFFF;
-    color: #0A3871;
-    border: 1px solid #0A3871;    
-}
-
-/*  .botoes li{
-    display: inline-block;
-    text-align: center;
-} *
-
- .botoes{
-    display: inline-block;
-    position: absolute;
-    width: 940px;
-    margin: 0 0;
-    padding: 0px 0;
-    top: 75%;
-    left: 5px;
-} 
-
-.botoes li{
-    display: inline-block;
-    text-align: center;
-    width: 40%;
-}
- 
-.criptografar{
-    box-sizing: border-box;
-    border: none;
-    border-radius: 24px;
-    width: 328px;
-    height: 67px;
-    padding: 24px;
-    cursor: pointer;
-    color: #FFFFFF;
-    font-family: Inter;
-    font-weight: 400;
-    font-size: 16px;
     line-height: 19px;
     height: auto;
     background-color: #0A3871;
@@ -171,12 +127,12 @@ textarea:focus{
 
 .descriptografar:hover{
     transform: scale(1.05);
+    border: 2.5px solid #000000;
     transition: 400ms;
-   
 }
 
 .descriptografar:active{
     background-color: #FFFFFF;
     color: #0A3871; 
+    border: 1px solid #0A3871;  
 }
- */
