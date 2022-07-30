@@ -30,6 +30,7 @@ textarea{
     background: #F3F5FC;
     border: none;
     height: 300px;
+    width: 600px;
     margin-left: auto;
     margin-right: auto;
     font-size: 32px;
@@ -43,11 +44,10 @@ textarea:focus{
 
 #area-texto{
     width: auto;
-    height: auto;
+    height: 65vh;
     margin-left: auto;
     margin-right: auto;
 } 
-
 
 
 ::placeholder{
@@ -67,7 +67,7 @@ textarea:focus{
 
 #instrucoes{
     display: block;
-    text-align: middle;
+    text-align: left;
     width: auto;
 }
 
@@ -80,7 +80,6 @@ textarea:focus{
     display: inline-block;
     text-align: center;
     margin: 0 0 0 15px;
-    
 } 
 
 .criptografar{
