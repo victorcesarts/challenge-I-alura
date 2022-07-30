@@ -49,7 +49,6 @@ textarea:focus{
     margin-right: auto;
 } 
 
-
 ::placeholder{
     color: #0A3871;    
 }
@@ -151,7 +150,7 @@ textarea:focus{
     margin-right: 10px;   
 } 
 
- .conteudo-resultado img{
+.conteudo-resultado img{
     display: block;
     align-items: center;   
     margin: auto;
@@ -185,4 +184,70 @@ textarea:focus{
     line-height: 150%;
     text-align: center;
     color: #495057;
+}
+
+@media screen and (max-width: 1152px) {
+    .conteudo{
+        width: 100%;
+        height: 70%;
+        text-align: center;
+    }
+    #area-texto{
+        width: auto;
+        height: 70%;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    textarea{
+        height: 500px;
+        width: 600px;
+    }
+    .resultado{
+        width: 100%;
+    } 
+    .conteudo-resultado{
+        height: 30%;
+        margin-left: auto;
+        margin-right: auto; 
+        text-align: center;
+    }  
+    .info-texto{
+        height: auto;
+        margin-left: auto;
+        margin-right: auto; 
+        vertical-align: middle;
+    }
+
+
+
+
+
+
+
+
+    /* .resultado{
+        width: 100%;
+        height: 50%;
+    }
+    #area-texto {
+        height: 100%;
+    }
+
+    .conteudo{
+        width: 100%;
+        height: 70%;
+        text-align: center;
+        float: center;
+        height: auto;
+    }
+     .conteudo-resultado{
+        display: table-cell;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto; 
+        text-align: center;
+    }  
+    .conteudo-resultado img{
+        display: none;
+    }  */
 }
