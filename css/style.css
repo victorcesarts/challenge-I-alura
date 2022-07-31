@@ -21,9 +21,9 @@ h1{
 
 .conteudo{
     width: 60%;
+    height: auto;
     text-align: center;
     float: left;
-    height: auto;
 }
 
 textarea{
@@ -144,25 +144,24 @@ textarea:focus{
     width: 35%;    
     left: 1000px;
     top: 10px;
-    background-color: #FFFFFF;
-    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    border-radius: 32px;
-    margin-right: 10px;   
+    margin-right: 40px;
 } 
 
 .conteudo-resultado img{
     display: block;
     align-items: center;   
     margin: auto;
+    width: 55%;
 } 
 
 .conteudo-resultado{
     width: 35%;
     display: table-cell;
-    height: 80vh;
-    margin-left: auto;
-    margin-right: auto; 
+    height: 75vh; 
     vertical-align: middle;
+    background-color: #FFFFFF;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
 } 
 
  #titulo-resultado{
@@ -189,36 +188,42 @@ textarea:focus{
 @media screen and (max-width: 1152px) {
     .conteudo{
         width: 100%;
-        height: 70%;
+        height: 70vh; 
         text-align: center;
     }
-    #area-texto{
-        width: auto;
-        height: 70%;
-        margin-left: auto;
-        margin-right: auto;
-    } 
+
     textarea{
         height: 500px;
         width: 600px;
     }
-    .resultado{
-        width: 100%;
+
+    #area-texto{
+        height: 80%;
     } 
-    .conteudo-resultado{
-        height: 30%;
-        margin-left: auto;
-        margin-right: auto; 
-        text-align: center;
-    }  
+
     .info-texto{
-        height: auto;
-        margin-left: auto;
-        margin-right: auto; 
-        vertical-align: middle;
+        height: 100%;
+    } 
+
+     .resultado{
+        width: 100%;
+        height: 30vh;
+        
+        margin-right: auto;
+        margin-left: auto; 
+    }  
+
+    .conteudo-resultado{
+        width: 100%;
+        height: 30vh;
+        
+    
+    }  
+
+    .conteudo-resultado img{
+        display: none;
     }
-
-
+    
 
 
 
