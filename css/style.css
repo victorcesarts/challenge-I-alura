@@ -198,6 +198,62 @@ textarea:focus{
     color: #495057;
 }
 
+.remover{
+    visibility:hidden;
+    width: 0;
+    height: 0;
+}
+
+#resultado-texto{
+    width: 300px;
+    position: absolute; 
+    transform: translate(-50%,-50%); 
+    top: 45%; left: 80%; 
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 150%;
+    text-align: center;
+    color: #495057;
+    overflow-y: auto;
+    overflow-wrap: break-word;
+    height: 50vh; 
+    vertical-align: middle;
+}
+
+.botao-copiar{
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    width: 336px;
+    height: 67px;
+    padding: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #0A3871;
+    background:none;
+    cursor: pointer;
+    position: absolute; 
+    transform: translate(-50%,-50%); 
+    top: 80%; left: 80%;   
+}
+
+.botao-copiar:hover{
+    font-size: 17px;
+    border: 2.5px solid #000000;
+    transition: 400ms;
+}
+
+.botao-copiar:active{
+    background-color: #0A3871;
+    color: #FFFFFF; 
+    border: 1px solid #0A3871;  
+}
+
 @media screen and (max-width: 1152px) {
     .conteudo{
         width: 100%;
@@ -251,26 +307,27 @@ textarea:focus{
         margin-top: 20px;
         top: 20%; left: 50%; 
     } 
+
+    #resultado-texto{
+        width: 500px;
+        height:50%;
+        position: absolute; 
+        transform: translate(-50%,-50%); 
+        overflow-y: auto;
+        overflow-wrap: break-word;
+        top:30%; left: 50%;  
+    }
+    .remover{
+        display: none;
+        width: 0;
+        height: 0;
+    }
+    .botao-copiar{
+        width: 328px;
+        position: absolute; 
+        transform: translate(-50%,-50%); 
+        top: 70%; left: 50%;   
+    }
 }
 
-.remover-texto{
-    display: none; 
-}
 
-.resultado-texto{
-    width: 300px;
-    position: absolute; 
-    transform: translate(-50%,-50%); 
-    top: 52%; left: 80%; 
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 26px;
-    line-height: 150%;
-    text-align: center;
-    color: #495057;
-    overflow-y: auto;
-    overflow-wrap: break-word;
-    height: 63vh; 
-    vertical-align: middle;
-}
