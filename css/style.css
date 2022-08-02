@@ -301,7 +301,7 @@ textarea:focus{
     } 
 
     #info-resultado{
-        width: 200px;
+        width: auto;
         position: absolute; 
         transform: translate(-50%,-50%); 
         margin-top: 20px;
@@ -309,7 +309,7 @@ textarea:focus{
     } 
 
     #resultado-texto{
-        width:200px;
+        width:300px;
         height:50%;
         position: absolute; 
         transform: translate(-50%,-50%); 
