@@ -10,7 +10,7 @@ As "chaves" de criptografia utilizadas foram:
 - A letra "u" é convertida para "ufat"
 
 Regras:
-- Aceita apenas com letras minúsculas
+- Aceita apenas letras minúsculas
 - Não aceita letras com acentos nem caracteres especiais
 - É possível converter uma palavra para a versão criptografada e também retornar uma palavra criptografada para a versão original.
 
